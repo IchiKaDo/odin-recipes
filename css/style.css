@@ -60,6 +60,10 @@ body {
     background-color: rgb(207, 23, 23);
 }
 
+.greys {
+    background-color: grey;
+}
+
 .buttons.green:hover {
     background-color: #00c01a;
     cursor: pointer;
@@ -73,4 +77,8 @@ body {
 .buttons.red:hover {
     background-color: #fc1c1c;
     cursor: pointer;
+}
+
+.buttons.greys:hover {
+    background-color: rgb(167, 167, 167);
 }
