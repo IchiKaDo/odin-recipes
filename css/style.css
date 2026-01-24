@@ -9,10 +9,10 @@ a {
 
 body {
     background-image: url("../background-images/Screenshot_2026-01-08_02-30-03.png"); /* Replace with your image path */
-    background-repeat: no-repeat; /* Prevents the image from tiling */
-    background-attachment: fixed; /* Keeps the image in place when scrolling */
-    background-size: cover; /* Stretches the image to cover the entire container */
-    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     }
 
 .headers {
@@ -67,6 +67,7 @@ body {
 
 .buttons.blue:hover {
     background-color: rgb(0, 47, 255);
+    cursor: pointer;
 }
 
 .buttons.red:hover {
