@@ -1,10 +1,52 @@
 body {
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(0, 0, 0);
 }
 
 a {
     text-decoration: none;
+}
+
+.container {
+    position: relative; /* The image will be positioned relative to this container */
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+}
+
+.moved-image {
+    position: absolute; /* Takes the image out of normal flow */
+    top: 50px;         /* Moves 50px from the top of the container */
+    left: 30px;        /* Moves 30px from the left of the container */
+    width: 100px;
+}
+
+section h3 {
+    color: #8B0000; /* DarkRed */
+    background-color: rgb(255, 145, 0);
+    display: block;
+    width: auto;
+    padding: 16px 10px;
+    margin: 4px 8px;
+    text-align: center;
+}
+
+h2 {
+    color: #c50505; /* DarkRed */
+    background-color: rgb(58, 110, 255);
+    display: block;
+    width: auto;
+    padding: 16px 10px;
+    margin: 4px 8px;
+    text-align: center;
+}
+
+section h4 {
+    color: green;
+}
+
+section li {
+    color: blue;
 }
 
 body {
