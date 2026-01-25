@@ -10,16 +10,22 @@ a {
 .container {
     position: relative; /* The image will be positioned relative to this container */
     width: 400px;
-    height: 200px;
-    border: 2px solid red;
+    height: 265px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 20px auto;
 }
 
 .moved-image {
-    position: absolute; /* Takes the image out of normal flow */
-    top: 50px;         /* Moves 50px from the top of the container */
-    left: 30px;        /* Moves 30px from the left of the container */
-    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    /* 2. Shift the image back by half its own size to truly center it */
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 265px; /* Maintains aspect ratio */
 }
+
 
 section h3 {
     color: #8B0000; /* DarkRed */
@@ -41,6 +47,7 @@ h2 {
     text-align: center;
 }
 
+
 section h4 {
     color: green;
 }
@@ -60,9 +67,10 @@ body {
 .headers {
     display: block;
     width: 500px;
+    color: white;
     font-weight: bolder;
     text-align: center;
-    margin: 4px 2px;
+    margin: 20px auto;
     padding: 15px 25px;
     border-radius: 8px;
     box-shadow: 0 7px 10px 0 rgba(0,0,0,0.5);
@@ -74,8 +82,10 @@ body {
 
 .odin {
     background-color: rgb(184, 184, 184);
+    margin: 20px;
 }
 
+.upleftbuttons,
 .buttons {
     font-weight: bolder;
     color: rgb(255, 236, 236);
@@ -88,6 +98,29 @@ body {
     text-align: center;
     border-radius: 8px; 
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.5);
+}
+
+.upleftbuttons {
+    position: absolute;
+    margin: auto 20px;
+}
+#down0 {
+    background-color: darkblue;
+    border-radius: 8px;
+    border-color: darkblue;
+    margin-bottom: 140px;
+}
+
+.down1 {
+    margin-top: 60px;
+}
+
+.down2 {
+    margin-top: 140px;
+}
+
+.down3 {
+    margin-top: 220px;
 }
 
 .green {
